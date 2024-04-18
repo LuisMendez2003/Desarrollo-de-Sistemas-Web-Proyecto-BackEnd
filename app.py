@@ -1,6 +1,6 @@
 from flask import Flask
 from utils.db import db
-from services.contact import predio
+from services.predio import predio
 from flask_sqlalchemy import SQLAlchemy
 from config import DATABASE_CONNECTION
 
